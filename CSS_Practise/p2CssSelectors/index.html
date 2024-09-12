@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+    <style>
+        /* element selector */
+        h1{
+            color:blue;
+        }
+        /* id selector */
+        #firstpara{
+            background-color: chartreuse;
+        }
+        /* class selector */
+        .red{
+            background-color: aqua;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div>p{
+            background-color: brown;
+        }
+        div p{
+            background-color: rgb(221, 134, 28);
+        }
+        a:visited{
+            color:yellow;
+        }
+        a:link{
+            color:green;
+        }
+        a:hover{
+            color:red;
+        }
+       p.blue{
+            background-color: deeppink;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="red">Css selectors</h1>
+    <h2 class="red">Choose class</h2>
+    <p id="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, enim, provident doloribus ad saepe iusto laborum suscipit perferendis asperiores tempora cum dolorem neque nobis sequi quo ex deleniti voluptatibus quae aut possimus aspernatur velit facilis, unde impedit! Iusto, facilis amet. Alias, rem repellendus. Culpa possimus non corporis facere ut, veritatis rem dolor excepturi quae distinctio molestiae inventore soluta nisi reiciendis, enim et vero quibusdam quis recusandae minima odio, cupiditate vel voluptatibus facilis. Quod aliquid quis, expedita maiores nam nisi natus iusto quaerat illum mollitia, repudiandae aut. Illo numquam placeat quibusdam nobis dicta, ad voluptate error iusto obcaecati, porro ducimus nostrum atque officiis. Est neque nostrum iste necessitatibus natus laborum hic consectetur ullam dolorem itaque impedit officiis, cupiditate beatae. Deleniti consequuntur animi quibusdam aliquam nesciunt! Blanditiis veritatis excepturi ipsum ipsam dolore voluptates totam voluptatem quod itaque minus distinctio pariatur libero quis facere maiores, vitae nostrum quibusdam adipisci esse. Facilis, iste repudiandae!</p>
+    <div >
+        <p>Lorem, ipsum dolor.</p>
+        <main>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, totam.</p>
+        </main>
+    </div>
+    <a class="blue" href="http://google.com">Google</a>
+    <a href="http://facebook.com">facebook</a>
+    <p class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae, deserunt minus quidem laboriosam voluptate consectetur earum commodi, exercitationem atque tenetur adipisci cumque iure molestiae officia quaerat, repellendus eaque sint?</p>
+</body>
+</html>
